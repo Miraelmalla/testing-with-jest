@@ -22,3 +22,8 @@ test('pushing null does not crash the stack', () => {
     stack.push(null);
     expect(stack.peek()).toBe(null);
 });
+
+test('push and pop the same value', () => {
+    stack.five("test");
+    expect(stack.pop()).toBe("test");
+});

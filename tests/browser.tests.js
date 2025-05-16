@@ -41,3 +41,8 @@ test('Clicking "Poppa stacken" shows an alert', async () => {
     let alert = await driver.switchTo().alert();
     await alert.accept();
 });
+
+test('Page title should be En stack', async () => {
+    let title = await driver.getTitle();
+    expect(name).toBe("En stack");
+});
