@@ -24,6 +24,6 @@ test('pushing null does not crash the stack', () => {
 });
 
 test('push and pop the same value', () => {
-    stack.five("test");
+    stack.push("test");
     expect(stack.pop()).toBe("test");
 });
