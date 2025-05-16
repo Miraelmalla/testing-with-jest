@@ -18,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/Miraelmalla/testing-with-jest/issues"
   },
-  "homepage": "https://github.com/Miraelmalla/testing-with-jest#readme"
+  "homepage": "https://github.com/Miraelmalla/testing-with-jest#readme",
+  "dependencies": {
+    "underscore": "^1.13.7"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^13.0.0",
+    "webpack": "^5.99.8",
+    "webpack-cli": "^6.0.1"
+  }
 }
