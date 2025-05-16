@@ -38,6 +38,6 @@ describe('Clicking "Pusha till stacken"', () => {
 test('Clicking "Poppa stacken" shows an alert', async () => {
     let pop = await driver.findElement(By.id('pop'));
     await pop.click();
-    let alert5 = await driver.switchTo().alert();
+    let alert = await driver.switchTo().alert();
     await alert.accept();
 });

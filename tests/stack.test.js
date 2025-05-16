@@ -19,6 +19,6 @@ test('peek on stack with two or more elements returns the top element', () => {
 });
 
 test('pushing null does not crash the stack', () => {
-    stack.push(6);
+    stack.push(null);
     expect(stack.peek()).toBe(null);
 });
